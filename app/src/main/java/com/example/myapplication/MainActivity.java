@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //dianji
                 startActivity(new Intent(MainActivity.this,Main2Activity.class));
             }
         });
